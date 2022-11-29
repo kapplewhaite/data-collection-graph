@@ -17,3 +17,8 @@ Activate the environment with the following command:
 source env/bin/activate
 ```
 
+Install the requirements with this command:
+
+```
+pip install -r requirements.txt
+```
