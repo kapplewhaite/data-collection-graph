@@ -13,8 +13,9 @@ b = np.array(
 print(a)
 print(b)
 
-plt.plot(a, b)
+plt.plot(a, b, label = "original")
 plt.title('Average Temperature in January (2021)')
 plt.xlabel('Days')
 plt.ylabel('Average Temperature')
+plt.legend()
 plt.show()
