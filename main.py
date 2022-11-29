@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 a = np.array(
     [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31],
-    dtype="i"
+    dtype='i'
 )
 
 b = np.array(
@@ -15,5 +15,6 @@ print(b)
 
 plt.plot(a, b)
 plt.title('Average Temperature in January (2021)')
+plt.xlabel('Days')
 plt.ylabel('Average Temperature')
 plt.show()
