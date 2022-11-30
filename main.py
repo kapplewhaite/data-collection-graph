@@ -21,9 +21,14 @@ b = np.array(
 print(a)
 print(b)
 
+# Plots the data points
 plt.plot(a, b, label = "original")
 plt.title('Average Temperature Over 2 Years (2020 - 2021)')
 plt.xlabel('Months (1 - 24)')
 plt.ylabel('Average Temperature')
+
+# Creates a legend to use on the graph
 plt.legend()
+
+# Displays the graph
 plt.show()
